@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BollyAPI", "BollyAPI.csproj", "{26DE5064-FA4C-43E1-84B0-15029D3392AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BollyAPI", "BollyAPI.csproj", "{26DE5064-FA4C-43E1-84B0-15029D3392AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BollyApi.Core", "..\Core\BollyApi.Core.csproj", "{E6524D42-716C-4E95-B78C-6A8B7DD7B67C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BollyApi.Repository", "..\Repository\BollyApi.Repository.csproj", "{E3A741A3-2166-4389-967F-F38D9BF82435}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BollyApi.Business", "..\BollyApi.Business\BollyApi.Business.csproj", "{1EA94794-8594-4F16-A80B-B5CAE17213C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BollyApi.Service", "..\BollyApi.Service\BollyApi.Service.csproj", "{79C118B7-0E43-4789-AC99-9061E6F98D92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{26DE5064-FA4C-43E1-84B0-15029D3392AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26DE5064-FA4C-43E1-84B0-15029D3392AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26DE5064-FA4C-43E1-84B0-15029D3392AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6524D42-716C-4E95-B78C-6A8B7DD7B67C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6524D42-716C-4E95-B78C-6A8B7DD7B67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6524D42-716C-4E95-B78C-6A8B7DD7B67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6524D42-716C-4E95-B78C-6A8B7DD7B67C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3A741A3-2166-4389-967F-F38D9BF82435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A741A3-2166-4389-967F-F38D9BF82435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A741A3-2166-4389-967F-F38D9BF82435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A741A3-2166-4389-967F-F38D9BF82435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EA94794-8594-4F16-A80B-B5CAE17213C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EA94794-8594-4F16-A80B-B5CAE17213C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EA94794-8594-4F16-A80B-B5CAE17213C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EA94794-8594-4F16-A80B-B5CAE17213C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C118B7-0E43-4789-AC99-9061E6F98D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C118B7-0E43-4789-AC99-9061E6F98D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C118B7-0E43-4789-AC99-9061E6F98D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C118B7-0E43-4789-AC99-9061E6F98D92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
